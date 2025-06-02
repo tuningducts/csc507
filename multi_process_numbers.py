@@ -7,7 +7,7 @@ def make_numbers(n):
 
 if __name__ == "__main__":
     start = time.time()
-    N = 10_000_000
+    N = 1_000_000
     workers = 4
     chunk = N // workers
 
